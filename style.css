@@ -1,0 +1,42 @@
+@keyframes yourAnimation{
+    0%{
+        opacity: 0;
+        }
+    50%{
+        opacity: 1;
+        }
+    }
+.animate{
+    animation: yourAnimation 1s forwards 0s ease-in;
+    -moz-animation: yourAnimation 1s forwards 0s ease-in;
+}
+body{
+    margin:0px;
+}
+button{
+    border:none;
+    border-radius: 10%;
+    padding:15px;
+    margin-top:-200px;
+    color:white;
+    /* box-shadow: 2px 2px 1px 0px rgb(44, 42, 42); */
+    background: grey;
+    position: absolute;
+    opacity: 0.7;
+}
+button:hover{   
+    opacity: 0.8;
+}
+button:active{
+    box-shadow: none;
+}
+#next{
+left: 520px;
+}
+#prev{
+left: 0px;    
+}
+
+#pic{
+    display:block;
+}
